@@ -12,8 +12,6 @@ font-weight: bold;
 font-size: 18px;
 color: white;
 font-family: 'Open Sans Condensed', sans-serif;
-
-
 }
 
 .persef img {
@@ -34,6 +32,8 @@ list-style: none;
 height: 140px;
 width: 80px;
 float: left;
+margin: 0;
+padding: 0;
 }
 
 nav li {
@@ -44,63 +44,65 @@ padding-right: 45px;
 }
 
 .hero {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 24px;
-    margin: 24px;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+padding: 24px;
+margin: 24px;
 
 }
 
 #name {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    color: white;
-    size: 36px;
-    padding: 0;
-    margin: 0;
+font-family: 'Open Sans', sans-serif;
+font-weight: lighter;
+color: white;
+size: 36px;
+padding: 0;
+margin: 0;
 }
 
 h3 {
-    font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
-    font-weight: bold;
-    color: white;
-    padding: 0;
-    margin: 0;
+font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
+font-weight: bold;
+color: white;
+padding: 0;
+margin: 0;
 }
 
 p {
-    font-family: 'EB Garamond', serif;
-    font-weight: 400;
-    color: white;
-    letter-spacing: .7px;
-    flex-wrap: wrap;
-    width: 40%;
-    size: 18px;
-    padding-top: 48px;
+font-family: 'EB Garamond', serif;
+font-weight: 400;
+color: white;
+letter-spacing: .7px;
+flex-wrap: wrap;
+width: 40%;
+size: 18px;
+padding-top: 48px;
 }
 
 h2 {
-    font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
-    font-weight: bold;
-    size: 36px;
-    color: white;
-    text-align: center;
+font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
+font-weight: bold;
+size: 36px;
+color: white;
+text-align: center;
 }
 
 .work {
-    margin-top: 140px;
-    padding: 24px;
+margin-top: 140px;
+padding: 24px;
+height: 100%;
+width: 100%;
 }
 
 
 h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    size: 24px;
-    color: white;
-    padding: 0;
-    margin: 0;
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+size: 24px;
+color: white;
+padding: 0;
+margin: 0;
 }
 
 .Pointer {
@@ -112,4 +114,161 @@ flex-direction: column;
 .Pointer, p {
 padding: 0;
 margin: 0;
+}
+
+.Pointer:hover {
+background-color: lavender;
+width: 100%;
+}
+
+.Watchify {
+display: flex;
+width: 100%;
+flex-direction: column;
+}
+
+.Watchify, p {
+padding: 0;
+margin: 0;
+}
+
+.UCB {
+display: flex;
+width: 100%;
+flex-direction: column;
+}
+
+.UCB, p {
+padding: 0;
+margin: 0;
+}
+
+tr {
+height: 264px;
+}
+
+th {
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+size: 24px;
+color: white;
+padding: 0;
+margin: 0;
+text-align: left;
+}
+
+td {
+font-family: 'EB Garamond', serif;
+font-weight: 400;
+color: white;
+letter-spacing: .7px;
+flex-wrap: wrap;
+width: 40%;
+size: 18px;
+padding-top: 48px;
+text-align: left;
+white-space: normal;
+}
+
+#intro {
+margin-top: 36px;
+}
+
+.connect {
+display: block;
+}
+
+form {
+width: 60%;
+float: right;
+padding: 48px;
+display: flex;
+flex-direction: column;
+}
+
+#nameinput {
+border: none;
+appearance: none;
+background: #c4c4c4;
+padding: 12px;
+width: 50%;
+margin: 0px;
+outline: none;
+}
+
+#message {
+border: none;
+appearance: none;
+background: #c4c4c4;
+padding: 12px;
+width: 50%;
+margin: 0px;
+height: 160px;
+outline: none;
+}
+
+label {
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+color: #fff;
+padding-bottom: 12px;
+}
+
+.sociallinks {
+float: left;
+display: flex;
+flex-direction: column;
+width: 26%;
+padding: 12px;
+margin-left: 30px;
+align-content: center;
+justify-content: center;
+}
+
+footer {
+text-decoration: none;
+font-weight: bold;
+font-size: 18px;
+width: 100%;
+background-color: #97949b;
+color: white;
+font-family: 'Open Sans Condensed', sans-serif;
+display: inline-flex;
+justify-content: space-evenly;
+}
+
+.footer-icons {
+display: flex;
+flex-direction: column;
+align-content: space-between;
+}
+
+.emailicon, .LIicon, .IGicon {
+margin: 12px;
+justify-content: center;
+}
+
+.footernav {
+display: flex;
+flex-direction: row;
+}
+
+li, .footernav {
+padding: 24px;
+}
+
+.copyright {
+display: flex;
+justify-content: flex-end;
+align-content: center;
+}
+
+button {
+padding: 12px;
+margin: 36px 0;
+background-color: #d3c8d6;
+border: none;
+border-radius: 20px;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: -.5px;
 }

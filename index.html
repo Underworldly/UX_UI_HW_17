@@ -28,35 +28,39 @@
     <section class="hero">
         <div class = "persef">
             <img src="./content/17240669_1732166166813531_767820418951517241_o copy.jpeg" alt="Persephone Burgess standing next to a tree while looking into the camera. She has long, black hair that is parted to the side and has a slight smile." >
-        <h1 id="name">Persephone Burgess</h1>
-        <h3>UX DESIGNER</h3>
-        <p id="intro">Human connection + creative expression. That is what my passion consists of. Finding UX has been the catalyst for both. I specialize in web and mobile accessibility and creating user-centric designs.<br><br> 
-        I believe all designs should be created for user accessibility and intuition.<br><br>
-        When I’m not creating apps or websites, I’ll be reading my Stephen King and drinking tea and missing terribly the heavy rainfall in Colorado.</p>
+            <h1 id="name">Persephone Burgess</h1>
+             <h3>UX DESIGNER</h3>
+            <p id="intro">Human connection + creative expression. That is what my passion consists of. Finding UX has been the catalyst for both. I specialize in web and mobile accessibility and creating user-centric designs.<br><br> 
+            I believe all designs should be created for user accessibility and intuition.<br><br>
+            When I’m not creating apps or websites, I’ll be reading my Stephen King and drinking tea and missing terribly the heavy rainfall in Colorado.</p>
+            <button>Download Resume</button>
         </div>
     </section>
     <section class="work">
-        <h2 class="heading2">Work</h2>
-        <div class="Pointer">
-            <h4>Pointer</h4>
-            <p>A mobile travel app intended to streamline planning.</p>
-        </div>
-        <div class="Watchify">
-            <h4>Watchify</h4>
-            <p>See what your loved ones love to watch with this mobile app.</p>
-        </div>
-        <div class="UCB">
-            <h4>UC Berkeley Redesign</h4>
-            <p>Creating a trust-worthy site for students to give back.</p>
-        </div>
+        <h2>Work</h2>
+        <table>
+            <tr class="Pointer">
+            <th>Pointer</th>
+            <td>A mobile travel app intended to streamline planning.</td>
+        </tr>
+        <tr class="Watchify">
+            <th>Watchify</th>
+            <td>See what your loved ones love to watch with this mobile app.</td>
+        </tr>
+        <tr class="UCB">
+            <th>UC Berkeley Redesign</th>
+            <td>Creating a trust-worthy site for students to give back.</td>
+        </tr>
+    </table>
     </section>
     <section class="connect">
         <h2>Connect</h2>
-        <form>
-            <label for="fullname">Full name:</label><br>
-            <input type="text" id="fullname" name="fullname" value="Full Name"><br>
-            <label for="message">Message:</label><br>
-            <input type="text" id="message" name="message" value="Input Message Here">
+        <form class="contact">
+            <label for="fullname" id="namelabel">Full name</label><br>
+            <input type="text" id="nameinput" name="fullname" value=""><br>
+            <label for="message">Message</label><br>
+            <input type="text" id="message" name="message" value="">
+            <button style="border-radius: 5px; width: 15%;">Submit</button>
         </form>
         <div class="sociallinks">
             <div class="emaillink">
@@ -76,9 +80,9 @@
     <footer>
         <img src="./content/Persephone.svg" alt="#" class="logo">
         <div class="footer-icons">
-            <img src="./content/Vector (2).png">
-            <img src="./content/Vector (1).png">
-            <img src="./content/Vector.png">
+            <img src="./content/Vector (2).png" class="emailicon">
+            <img src="./content/Vector (1).png" class="LIicon">
+            <img src="./content/Vector.png" class="IGicon">
         </div>
         <ul class="footernav" style="list-style-type: none;">
             <li>Work</li>
